@@ -1,0 +1,87 @@
+<header>
+    <div class=" py-2 z-depth-1 d-lg-none fixed-top bg-white">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars"></i></a>
+
+        </div>
+    </div>
+
+
+    <div id="slide-out" class="side-nav fixed">
+
+        <div class="container p-1 d-lg-flex justify-content-between">
+
+            <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="img/logo.png"></a>
+
+            <div class=" navDiv">
+                <ul class=" nav ">
+                    <li class=" nav-item">
+                        <a href="index.html">الرئيسيه </a>
+                    </li>
+
+                    <li class=" nav-item">
+                        <a href="about.html">عن المستوصف</a>
+                    </li>
+
+
+                    <li class=" nav-item">
+                        <a href="doctors.html">الاطباء </a>
+                    </li>
+
+
+                    <li class=" nav-item">
+                        <div class="dropdown">
+
+                            <!--Trigger-->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">التخصصات</a>
+
+                            <!--Menu-->
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="Medical-analysis.html">التحالبل الطبية</a>
+                                <a class="dropdown-item" href="X-rays.html">الاشعة</a>
+                                <a class="dropdown-item" href="teeth.html">الفم والاسنان</a>
+                                <a class="dropdown-item" href="Internal-diseases.html">الامراض الباطنية</a>
+                                <a class="dropdown-item" href="Pediatrics.html">طب الاطفال</a>
+                                <a class="dropdown-item" href="Women-disease.html">امراض النساء والولادة</a>
+
+                            </div>
+                        </div>
+                        <!--/Dropdown primary-->
+                    </li>
+
+
+                    <li class=" nav-item">
+                        <a href="News.html">الاخبار </a>
+                    </li>
+
+                    <li class=" nav-item">
+                        <a href="Recruit.html">توظيف </a>
+                    </li>
+
+                    <li class=" nav-item">
+                        <a href="contact.html">اتصل بنا </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+
+<script>
+    $(document).ready(function () {
+        // SideNav Default Options
+        $('.button-collapse').sideNav({
+            edge: 'right',
+            breakpoint: 992,
+            menuWidth: 240,
+        });
+    });
+</script>
